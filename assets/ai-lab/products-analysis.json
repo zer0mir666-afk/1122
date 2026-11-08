@@ -1,0 +1,136 @@
+[
+  {
+    "id": "jacket",
+    "post_facts": "Куртка Loro Piana; 100% шерсть; размеры M–3XL.",
+    "product_name_ru": "Шерстяная куртка Loro Piana",
+    "possible_model_ru": "Точная модель не установлена; наиболее близкий формат — шерстяная overshirt-куртка",
+    "visible_details_ru": [
+      "Светлый кремово-бежевый цвет",
+      "Отложной рубашечный воротник",
+      "Застежка спереди, вероятно на молнии",
+      "Нагрудный карман с клапаном",
+      "Боковые карманы",
+      "Длинные рукава",
+      "Прямой свободный силуэт"
+    ],
+    "search_queries": [
+      "site:loropiana.com Loro Piana men's wool overshirt jacket ivory",
+      "Loro Piana cream wool shirt jacket men",
+      "Loro Piana white wool zip jacket chest pocket",
+      "Loro Piana wool overshirt jacket beige"
+    ],
+    "description_ru": "Светлая шерстяная куртка Loro Piana с рубашечным воротником и лаконичным прямым силуэтом. Модель дополнена передней застежкой и функциональными карманами.",
+    "characteristics": {
+      "бренд": "Loro Piana",
+      "категория": "куртка",
+      "цвет": "кремово-бежевый",
+      "материал": "100% шерсть",
+      "крой_или_формат": "прямой свободный, overshirt-формат",
+      "размеры": "M–3XL"
+    },
+    "needs_confirmation": [
+      "Точная модель или артикул",
+      "Тип застежки",
+      "Страна производства"
+    ]
+  },
+  {
+    "id": "cardigan",
+    "post_facts": "Кардиган Brunello Cucinelli; материал — 100% хлопок; размеры — M–3XL.",
+    "product_name_ru": "Хлопковый кардиган Brunello Cucinelli с шалевым воротником",
+    "possible_model_ru": "Точная модель или линейка не установлена; кардиган с шалевым воротником.",
+    "visible_details_ru": [
+      "Серо-синий цвет",
+      "Шалевый воротник",
+      "Застёжка на пуговицы",
+      "Два накладных кармана спереди",
+      "Длинные рукава",
+      "Трикотажная фактура"
+    ],
+    "search_queries": [
+      "Brunello Cucinelli cotton shawl collar cardigan blue grey patch pockets",
+      "Brunello Cucinelli 100% cotton button cardigan shawl neck two pockets",
+      "Brunello Cucinelli grey blue knit cardigan shawl collar front buttons",
+      "кардиган Brunello Cucinelli хлопок шалевый воротник накладные карманы серо-синий"
+    ],
+    "description_ru": "Хлопковый кардиган Brunello Cucinelli серо-синего цвета с шалевым воротником и застёжкой на пуговицы. Спереди расположены два накладных кармана.",
+    "characteristics": {
+      "бренд": "Brunello Cucinelli",
+      "категория": "кардиган",
+      "цвет": "серо-синий",
+      "материал": "100% хлопок",
+      "крой_или_формат": "кардиган с шалевым воротником и застёжкой на пуговицы",
+      "размеры": "M–3XL"
+    },
+    "needs_confirmation": [
+      "Официальное название модели или артикул"
+    ]
+  },
+  {
+    "id": "suitcase",
+    "post_facts": "Чемодан-ручная кладь Louis Vuitton, графитовый пиксельный принт; колёса 360°, выдвижная ручка.",
+    "product_name_ru": "Чемодан Louis Vuitton для ручной клади с графитовым пиксельным принтом",
+    "possible_model_ru": "Louis Vuitton Horizon 55, вероятно вариант Damier Graphite Pixel",
+    "visible_details_ru": [
+      "Жёсткий прямоугольный корпус",
+      "Графитовый пиксельный узор",
+      "Четыре поворотных колеса",
+      "Защитные угловые накладки",
+      "Выдвижная ручка",
+      "На фото рядом видна фирменная коробка Louis Vuitton"
+    ],
+    "search_queries": [
+      "Louis Vuitton Horizon 55 Damier Graphite Pixel suitcase",
+      "Louis Vuitton Horizon 55 Graphite Pixel carry on",
+      "Louis Vuitton Damier Graphite Pixel rolling luggage",
+      "Louis Vuitton Horizon 55 pixel print clean product photo"
+    ],
+    "description_ru": "Чемодан Louis Vuitton формата ручной клади с графитовым пиксельным принтом. Оснащён четырьмя колёсами с вращением на 360° и выдвижной ручкой.",
+    "characteristics": {
+      "бренд": "Louis Vuitton",
+      "категория": "чемодан-ручная кладь",
+      "цвет": "графитовый",
+      "материал": "не установлен",
+      "крой_или_формат": "жёсткий чемодан формата ручной клади",
+      "размеры": "точные размеры не указаны"
+    },
+    "needs_confirmation": [
+      "Точная официальная модель и размер",
+      "Материал корпуса",
+      "Точные габариты и объём"
+    ]
+  },
+  {
+    "id": "hoodie",
+    "post_facts": "Худи Loro Piana; размеры M–3XL.",
+    "product_name_ru": "Серое худи Loro Piana",
+    "possible_model_ru": "Модель или линейка не установлена",
+    "visible_details_ru": [
+      "Серый меланжевый цвет",
+      "Капюшон со шнурками",
+      "Длинные рукава",
+      "Похоже на короткую застёжку у горловины",
+      "Свободный силуэт"
+    ],
+    "search_queries": [
+      "Loro Piana grey melange hoodie drawstring half zip",
+      "Loro Piana grey hooded pullover short zip",
+      "Loro Piana серое худи меланж капюшон шнурки молния",
+      "Loro Piana grey half zip hoodie product photo"
+    ],
+    "description_ru": "Серое меланжевое худи Loro Piana с капюшоном и шнурками. Модель свободного силуэта с длинными рукавами; у горловины видна короткая застёжка.",
+    "characteristics": {
+      "бренд": "Loro Piana",
+      "категория": "худи",
+      "цвет": "серый меланж",
+      "материал": "не указан",
+      "крой_или_формат": "свободный силуэт, капюшон",
+      "размеры": "M–3XL"
+    },
+    "needs_confirmation": [
+      "Состав материала",
+      "Официальное название модели или линейки",
+      "Тип застёжки у горловины"
+    ]
+  }
+]

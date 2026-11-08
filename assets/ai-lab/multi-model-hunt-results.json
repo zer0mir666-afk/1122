@@ -1,0 +1,162 @@
+[
+  {
+    "ok": true,
+    "label": "Gemini 3.8 Flash",
+    "model": "gemini-3.8-flash",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": "Loro Piana",
+      "model": null,
+      "product_name_ru": "Шерстяная куртка-бомбер на молнии",
+      "description_ru": null,
+      "characteristics": {
+        "material": "100% шерсть",
+        "sizes": "M-3XL"
+      },
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "Функция прямого поиска в интернете в текущей сессии недоступна. В соответствии с инструкцией прямые ссылки и вымышленные URL не создавались.",
+      "verified_downloads": 0
+    }
+  },
+  {
+    "ok": true,
+    "label": "Gemini 3.7 Flash",
+    "model": "gemini-3.7-flash",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": "Loro Piana",
+      "model": null,
+      "product_name_ru": "Куртка-бомбер на молнии",
+      "description_ru": "Куртка фасона харрингтон/бомбер из шерстяной ткани светлого оттенка (слоновая кость/кремовый) с классическим отложным воротником, хлястиком под воротником, эластичным поясом по низу и прорезными боковыми карманами.",
+      "characteristics": {
+        "материал": "100% шерсть",
+        "цвет": "светло-бежевый / кремовый",
+        "фасон": "бомбер / харрингтон",
+        "застёжка": "молния"
+      },
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "Прямой инструмент интернет-поиска для извлечения актуальных ссылок на изображения в данный момент недоступен. Найти точный артикул и гарантированно рабочие ссылки на фотографии без риска выдумывания URL невозможно. Также стоит отметить, что размерный ряд M–3XL характерен для поставок параллельного импорта или реплик (в официальной мужской сетке Loro Piana используется итальянская шкала размеров: IT 46–58).",
+      "verified_downloads": 0
+    }
+  },
+  {
+    "ok": true,
+    "label": "GPT 5.6 Sol",
+    "model": "gpt-5.6-sol",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": "Loro Piana",
+      "model": null,
+      "product_name_ru": null,
+      "description_ru": "Светлая куртка из шерсти с отложным воротником и эластичным поясом.",
+      "characteristics": {
+        "категория": "куртка",
+        "материал": "100% шерсть",
+        "размеры": "M–3XL",
+        "цвет_по_фото": "светло-бежевый"
+      },
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "Интернет-поиск в текущей сессии недоступен, поэтому невозможно достоверно найти точный товар, проверить модель и предоставить настоящие страницы-источники и прямые ссылки на изображения.",
+      "verified_downloads": 0
+    }
+  },
+  {
+    "ok": true,
+    "label": "GPT 6 Sol",
+    "model": "gpt-6-sol",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": "Loro Piana",
+      "model": null,
+      "product_name_ru": "Куртка Loro Piana",
+      "description_ru": "Светлая куртка из шерсти с отложным воротником и накладными карманами.",
+      "characteristics": {
+        "material": "100% шерсть",
+        "sizes": "M–3XL"
+      },
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "Доступного интернет-поиска нет, поэтому точный товар и ссылки на фотографии не подтверждены.",
+      "verified_downloads": 0
+    }
+  },
+  {
+    "ok": true,
+    "label": "GPT 6 Astra",
+    "model": "gpt-6-astra",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": "Loro Piana",
+      "model": null,
+      "product_name_ru": "Шерстяная куртка",
+      "description_ru": "Светлая куртка с отложным воротником. Точная модель не установлена.",
+      "characteristics": {
+        "материал_по_данным_поста": "100% шерсть",
+        "размеры_по_данным_поста": "M–3XL",
+        "бренд_по_данным_поста": "Loro Piana"
+      },
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "В этой сессии интернет-поиск недоступен. Найти и проверить фотографии именно этого товара, страницы-источники и прямые ссылки на изображения не удалось. Бренд и состав указаны по данным поста, независимо не подтверждены.",
+      "verified_downloads": 0
+    }
+  },
+  {
+    "ok": true,
+    "label": "GPT 6.1 Sol",
+    "model": "gpt-6.1-sol",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": "Loro Piana",
+      "model": null,
+      "product_name_ru": "Светлая шерстяная куртка",
+      "description_ru": "Светлая куртка с отложным воротником, боковыми карманами и присборенным нижним краем. Точная модель не установлена.",
+      "characteristics": {
+        "материал_по_данным_поста": "100% шерсть",
+        "размеры_по_данным_поста": "M–3XL",
+        "бренд_по_данным_поста": "Loro Piana"
+      },
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "Интернет-поиск в этом чате недоступен. Найти и проверить фотографии именно этого товара, страницы-источники и прямые ссылки на изображения не удалось. Бренд, состав и размеры указаны по данным поста, без независимого подтверждения.",
+      "verified_downloads": 0
+    }
+  },
+  {
+    "ok": true,
+    "label": "Grok 4.7",
+    "model": "grok-4.7",
+    "result": {
+      "search_available": true,
+      "exact_product_found": false,
+      "brand": "Loro Piana",
+      "model": null,
+      "product_name_ru": null,
+      "description_ru": null,
+      "characteristics": {},
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "Точный товар не найден в открытых источниках. Фото представляет конкретный экземпляр из магазина без публичной информации о модели или артикуле. Данные о бренде и материале взяты из исходного сообщения Telegram-поста.",
+      "verified_downloads": 0
+    }
+  },
+  {
+    "ok": true,
+    "label": "Claude Sonnet 5.5",
+    "model": "claude-sonnet-5-5",
+    "result": {
+      "raw_response": "Loro Piana bomber jackets typically range from approximately **$2,000 to $8,000+**, depending on the material and collection.\n\nEntry-level options in technical fabrics like microfiber with Storm System® start around $2,000-2,500. Mid-range bombers in linen-wool blends, cashmere, or suede fall between $3,000-5,000. Premium materials like deerskin or specialized fabrics push toward $5,000-6,000, while the most exclusive pieces—such as the Kilya bomber in vicuña—can exceed $8,000.\n\nThe price varies significantly based on fabric (cashmere, vicuña, deerskin vs. microfiber), technical treatments (Rain System®, Storm System®), and seasonal collection positioning.",
+      "photos": [],
+      "verified_downloads": 0
+    }
+  }
+]

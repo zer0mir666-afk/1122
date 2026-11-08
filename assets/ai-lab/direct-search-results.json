@@ -1,0 +1,70 @@
+[
+  {
+    "ok": true,
+    "label": "GPT",
+    "model": "gpt-6.1-terra",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": null,
+      "model": null,
+      "product_name_ru": null,
+      "description_ru": null,
+      "characteristics": {},
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "У меня нет доступа к интернет-поиску в этом диалоге, поэтому я не могу достоверно установить бренд и модель или предоставить проверенные ссылки на фотографии."
+    }
+  },
+  {
+    "ok": true,
+    "label": "Gemini",
+    "model": "gemini-3.1-pro",
+    "result": {
+      "search_available": true,
+      "exact_product_found": false,
+      "brand": null,
+      "model": null,
+      "product_name_ru": null,
+      "description_ru": null,
+      "characteristics": {},
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "По изображению удалось определить, что это бежевая кожаная куртка-бомбер с воротником, висящая на вешалке в бутике (предположительно Brunello Cucinelli или аналогичного люксового бренда), однако по данному кадру низкого разрешения установить точную модель и артикул через интернет-поиск не представляется возможным."
+    }
+  },
+  {
+    "ok": true,
+    "label": "Claude",
+    "model": "claude-opus-5-5",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": null,
+      "model": null,
+      "product_name_ru": null,
+      "description_ru": null,
+      "characteristics": {},
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "У меня нет доступа к инструментам интернет-поиска в текущей конфигурации. Не могу найти конкретный товар по фотографии."
+    }
+  },
+  {
+    "ok": true,
+    "label": "Grok",
+    "model": "grok-4.7",
+    "result": {
+      "search_available": false,
+      "exact_product_found": false,
+      "brand": null,
+      "model": null,
+      "product_name_ru": null,
+      "description_ru": null,
+      "characteristics": {},
+      "photos": [],
+      "confidence_percent": 0,
+      "comment_ru": "Интернет-поиск в этом запросе недоступен, поэтому конкретный бренд и модель по фото установить нельзя. Ссылки, артикул и характеристики не указываю, чтобы ничего не выдумывать."
+    }
+  }
+]
