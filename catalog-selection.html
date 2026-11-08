@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Выбор категорий каталога</title>
+    <link rel="stylesheet" href="catalog-selection.css" />
+  </head>
+  <body>
+    <main class="selector-shell">
+      <header class="selector-header">
+        <p class="brand">by.adigyuzelov</p>
+        <h1>Что войдёт в каталог</h1>
+        <p class="intro">Отметь нужные категории. Выбор сохранится на этом устройстве.</p>
+        <label class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="6.5"></circle>
+            <path d="m16 16 4 4"></path>
+          </svg>
+          <input id="category-search" type="search" placeholder="Найти категорию" autocomplete="off" />
+        </label>
+      </header>
+
+      <div id="category-groups" class="category-groups"></div>
+      <p id="empty-search" class="empty-search" hidden>Ничего не найдено</p>
+    </main>
+
+    <footer class="selection-bar">
+      <div class="selection-summary">
+        <strong id="selection-count">0</strong>
+        <span>выбрано</span>
+      </div>
+      <button id="reset-selection" class="quiet-button" type="button">Сбросить</button>
+      <button id="copy-selection" class="copy-button" type="button" disabled>Скопировать список</button>
+    </footer>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+    <script src="catalog-selection.js"></script>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Сравнение 4 ИИ</title>
+    <link rel="stylesheet" href="ai-lab.css?v=4" />
+  </head>
+  <body>
+    <header class="page-head">
+      <h1>Один товар · четыре результата</h1>
+      <p>В каждом блоке: исходник из Telegram, найденные фотографии и вывод конкретного ИИ.</p>
+    </header>
+
+    <main class="comparison">
+      <article class="result">
+        <header class="model"><strong>GPT</strong><span>gpt-6-luna</span></header>
+        <section class="photos" aria-label="Фотографии результата GPT">
+          <figure class="source"><img src="assets/ai-lab/tg-product-jacket.png" alt="Исходное фото из Telegram" /><figcaption>Telegram</figcaption></figure>
+          <figure><img src="assets/ai-lab/gpt-slowear-1.jpg" alt="Кандидат Slowear, найденный по запросу GPT" /><figcaption>Кандидат 1</figcaption></figure>
+          <figure><img src="assets/ai-lab/gpt-slowear-2.jpg" alt="Кандидат Slowear, найденный по запросу GPT" /><figcaption>Кандидат 2</figcaption></figure>
+          <figure><img src="assets/ai-lab/gpt-jacquemus.jpg" alt="Кандидат Jacquemus, найденный по запросу GPT" /><figcaption>Кандидат 3</figcaption></figure>
+        </section>
+        <section class="description">
+          <div class="status rejected">Точный товар не найден</div>
+          <h2>Все три кандидата отклонены</h2>
+          <p>GPT сформировал подробный запрос, но поиск ушёл в похожие шерстяные блузоны других брендов. Эти фотографии нельзя использовать для карточки товара.</p>
+          <dl><div><dt>Пост</dt><dd>Loro Piana · 100% шерсть · M–3XL</dd></div><div><dt>Совпало</dt><dd>Светлый цвет, воротник, короткий силуэт</dd></div><div><dt>Не совпало</dt><dd>Бренд, карманы, застёжка и конструкция низа</dd></div><div><dt>Результат</dt><dd>Ничего не публиковать; нужен повторный поиск</dd></div></dl>
+        </section>
+      </article>
+
+      <article class="result">
+        <header class="model"><strong>Gemini</strong><span>gemini-3.1-pro</span></header>
+        <section class="photos" aria-label="Фотографии результата Gemini">
+          <figure class="source"><img src="assets/ai-lab/tg-product-jacket.png" alt="Исходное фото из Telegram" /><figcaption>Telegram</figcaption></figure>
+          <figure><img src="assets/ai-lab/exact-far0701-1.jpg" alt="Официальное фото Loro Piana FAR0701" /><figcaption>Официальное 1</figcaption></figure>
+          <figure><img src="assets/ai-lab/exact-far0701-2.jpg" alt="Деталь Loro Piana FAR0701" /><figcaption>Официальное 2</figcaption></figure>
+          <figure><img src="assets/ai-lab/exact-far0701-3.jpg" alt="Официальное фото Loro Piana FAR0701 спереди" /><figcaption>Официальное 3</figcaption></figure>
+        </section>
+        <section class="description">
+          <div class="status candidate">Найден сильный официальный кандидат</div>
+          <h2>Loro Piana Plain Jacket · FAR0701</h2>
+          <p>Gemini вывел поиск на официальную карточку Loro Piana. Совпадают цвет, рубашечный воротник, молния, два нагрудных клапана, манжеты и рифлёный низ.</p>
+          <dl><div><dt>Источник</dt><dd>Официальный сайт Loro Piana</dd></div><div><dt>Код</dt><dd>FAR0701 · Heavy Cream A02O</dd></div><div><dt>Расхождение</dt><dd>Официально 100% кашемир и женская линейка; в Telegram указано 100% шерсть и M–3XL</dd></div><div><dt>Результат</dt><dd>Очень близкий кандидат, но требуется подтверждение владельца</dd></div></dl>
+        </section>
+      </article>
+
+      <article class="result">
+        <header class="model"><strong>Claude</strong><span>claude-opus-5</span></header>
+        <section class="photos" aria-label="Фотографии результата Claude">
+          <figure class="source"><img src="assets/ai-lab/tg-product-jacket.png" alt="Исходное фото из Telegram" /><figcaption>Telegram</figcaption></figure>
+          <figure><img src="assets/ai-lab/exact-far0701-3.jpg" alt="Официальное фото Loro Piana FAR0701" /><figcaption>Официальное 1</figcaption></figure>
+          <figure><img src="assets/ai-lab/exact-far0701-2.jpg" alt="Деталь воротника и карманов FAR0701" /><figcaption>Официальное 2</figcaption></figure>
+          <figure><img src="assets/ai-lab/exact-far0701-1.jpg" alt="Фото FAR0701 в образе" /><figcaption>Официальное 3</figcaption></figure>
+        </section>
+        <section class="description">
+          <div class="status candidate">Найден тот же официальный кандидат</div>
+          <h2>Loro Piana Plain Jacket · FAR0701</h2>
+          <p>Claude также нашёл FAR0701 через признаки «молочный цвет, молния, два нагрудных клапана и рифлёный низ». По конструкции это лучший найденный вариант.</p>
+          <dl><div><dt>Источник</dt><dd>Официальный сайт Loro Piana</dd></div><div><dt>Код</dt><dd>FAR0701 · Heavy Cream A02O</dd></div><div><dt>Расхождение</dt><dd>Состав и размерная сетка официальной модели не совпадают с подписью Telegram</dd></div><div><dt>Результат</dt><dd>Не публиковать автоматически; отправить владельцу на подтверждение</dd></div></dl>
+        </section>
+      </article>
+
+      <article class="result">
+        <header class="model"><strong>Qwen</strong><span>qwen3.8-max</span></header>
+        <section class="photos" aria-label="Фотографии результата Qwen и GPT">
+          <figure class="source"><img src="assets/ai-lab/tg-product-jacket.png" alt="Исходное фото из Telegram" /><figcaption>Telegram</figcaption></figure>
+          <figure><img src="assets/ai-lab/qwen-breia.jpg" alt="Кандидат Loro Piana Breia" /><figcaption>Кандидат 1</figcaption></figure>
+          <figure><img src="assets/ai-lab/qwen-eseven.jpg" alt="Кандидат из магазина E-Seven" /><figcaption>Кандидат 2</figcaption></figure>
+          <figure><img src="assets/ai-lab/qwen-realreal.jpg" alt="Кандидат Loro Piana с двумя нагрудными карманами" /><figcaption>Кандидат 3</figcaption></figure>
+        </section>
+        <section class="description">
+          <div class="status rejected">Точный товар не найден</div>
+          <h2>Кандидаты похожи, но не совпадают</h2>
+          <p>Qwen точнее всех описал исходник, однако его поисковый запрос оказался слишком узким. Выдача дала Breia и другие похожие блузоны, но не ту же конструкцию.</p>
+          <dl><div><dt>Пост</dt><dd>Loro Piana · 100% шерсть · M–3XL</dd></div><div><dt>Совпало</dt><dd>Цвет, короткий силуэт, воротник и эластичный низ</dd></div><div><dt>Не совпало</dt><dd>Нагрудные клапаны, манжеты, застёжка и расположение швов</dd></div><div><dt>Результат</dt><dd>Все кандидаты отклонить</dd></div></dl>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>

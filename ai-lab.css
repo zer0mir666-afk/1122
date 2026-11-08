@@ -1,0 +1,38 @@
+:root { --ink:#111; --muted:#747474; --line:#d8d8d8; --soft:#f5f5f3; }
+* { box-sizing:border-box; }
+html { background:#fff; color:var(--ink); font-family:Arial,Helvetica,sans-serif; }
+body { margin:0; }
+img { display:block; width:100%; }
+.page-head { padding:20px 24px; border-bottom:1px solid var(--ink); }
+.page-head h1 { margin:0; font-size:20px; line-height:1.2; }
+.page-head p { margin:6px 0 0; color:var(--muted); font-size:12px; }
+.comparison { width:min(100%,1280px); margin:0 auto; border-inline:1px solid var(--line); }
+.result { min-width:0; border-bottom:8px solid var(--soft); }
+.result:last-child { border-bottom:0; }
+.model { height:74px; display:flex; align-items:flex-end; justify-content:space-between; gap:12px; padding:0 16px 15px; border-bottom:1px solid var(--ink); }
+.model strong { font-size:22px; line-height:1; }
+.model span { color:var(--muted); font-size:11px; }
+.photos { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); border-bottom:1px solid var(--ink); }
+.photos figure { position:relative; min-width:0; height:460px; margin:0; overflow:hidden; background:var(--soft); border-right:1px solid #fff; border-bottom:1px solid #fff; }
+.photos figure:nth-child(even) { border-right:0; }
+.photos img { height:100%; object-fit:contain; }
+.photos figcaption { position:absolute; left:6px; bottom:6px; padding:4px 5px; background:rgba(255,255,255,.92); font-size:8px; }
+.photos .source { outline:2px solid var(--ink); outline-offset:-2px; }
+.photos .source figcaption { background:var(--ink); color:#fff; }
+.description { padding:24px 24px 40px; }
+.status { min-height:30px; padding-bottom:10px; border-bottom:1px solid var(--line); color:var(--muted); font-size:11px; line-height:1.35; }
+.status.candidate { color:var(--ink); font-weight:700; }
+.status.rejected { color:#777; }
+.description h2 { margin:16px 0 10px; font-size:18px; line-height:1.25; }
+.description > p { min-height:70px; margin:0; font-size:12px; line-height:1.55; }
+dl { margin:16px 0 0; border-top:1px solid var(--line); }
+dl div { display:grid; grid-template-columns:72px 1fr; gap:10px; padding:9px 0; border-bottom:1px solid var(--line); }
+dt { color:var(--muted); font-size:9px; }
+dd { margin:0; font-size:11px; line-height:1.4; }
+@media (max-width:700px) {
+  .page-head { padding-inline:16px; }
+  .comparison { width:100%; border-inline:0; }
+  .photos { grid-template-columns:1fr; }
+  .photos figure { height:430px; border-right:0; }
+  .description { padding-inline:16px; }
+}
